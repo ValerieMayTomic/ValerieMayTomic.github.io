@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	 background:url(seigaiha.png) repeat;
+	 z-index: -80;
+}
+#header
+{
+	width: 1024px;
+	left:50%;
+	margin-left:-512px;
+	margin-bottom: 80px;
+	height:80px;
+	position:relative;
+	text-align:center;
+	z-index: 40;
+}
+#header a
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:60px;
+	margin-top:0px;
+	color:#2d5c78;
+	text-decoration:none;
+}
+#header a:hover
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:60px;
+	margin-top:0px;
+	color:#3eace1;
+	text-decoration:none;
+}
+#topnav
+{
+	width: 1024px;
+	left:50%;
+	margin-left:-512px;
+	position:absolute;
+	top:100px;
+	text-align:center;
+	z-index:50;
+	
+}
+#topnav ul
+{
+	margin: 0;
+	padding: 0px;
+	list-style-type: none;
+}
+#topnav li
+{
+	display: inline;
+	padding-left:30px;
+}
+#topnav ul li a
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:24px;
+	text-decoration: none;
+	color:#3eace1;
+}
+#topnav ul li a:hover
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:24px;
+	text-decoration: none;
+	color:#2d5c78;
+}
+#content
+{
+	background-image:url(debut_light.png);
+	opacity:.9;
+	width: 1024px;
+	height:auto;
+	position:absolute;
+	left: 50%;
+	margin-left: -512px;
+	margin-top:-20px;
+	text-align: center;
+	padding:10px;
+	z-index: 20;
+}
+#content a
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:60px;
+	margin-top:0px;
+	color:#2d5c78;
+	text-decoration:none;
+}
+#content a:hover
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:60px;
+	margin-top:0px;
+	color:#3eace1;
+	text-decoration:none;
+}
+div.img img
+{
+	width: 250px;
+	height:200px;
+	float: left;
+	padding: 45px;
+}
+#footer
+{
+	background-color:#2d5c78;
+	width: 100%;
+	height:45px;
+	position:fixed;
+	left: 0px;
+	bottom:0px;
+	z-index: 55;
+}
+h1
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:60px;
+	margin-top:0px;
+	color:#2d5c78;
+}
+h2
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:36px;
+	color:#d2dddf;	
+	font-weight:100;
+	padding: 10px;
+	margin:0px;
+}
+h3
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:14px;
+	font-weight:100;
+	color:#EEE;	
+	margin:0px;
+}
+h4
+{
+	font-family:'Marvel', sans-serif;
+	font-size:30px;
+	color:#2d5c78;	
+	font-weight:100;
+	padding: 10px;
+	padding-bottom:30px;
+}
+h5
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:30px;
+	color:#2d5c78;	
+	font-weight:100;
+	padding: 10px;
+	text-align:left;
+}
+p
+{
+	font-family:'Voltaire', sans-serif;
+	font-size:16px;
+	color:#EEE;	
+	padding: 10px;
+	margin:0px;
+}
+
