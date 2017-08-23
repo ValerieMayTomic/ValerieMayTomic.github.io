@@ -11,6 +11,7 @@ body
 	left:50%;
 	margin-left:-512px;
 	margin-bottom: 80px;
+	margin-top: 80px;
 	height:80px;
 	position:relative;
 	text-align:center;
@@ -77,23 +78,23 @@ body
 	position:absolute;
 	left: 50%;
 	margin-left: -512px;
-	margin-top:-20px;
+	margin-top:-140px;
 	text-align: center;
 	padding:10px;
 	z-index: 20;
 }
 #content a
 {
-	font-family:'Voltaire', sans-serif;
-	font-size:60px;
+	font-family:'Marvel', sans-serif;
+	font-size:30px;
 	margin-top:0px;
 	color:#2d5c78;
 	text-decoration:none;
 }
 #content a:hover
 {
-	font-family:'Voltaire', sans-serif;
-	font-size:60px;
+	font-family:'Marvel', sans-serif;
+	font-size:30px;
 	margin-top:0px;
 	color:#3eace1;
 	text-decoration:none;
