@@ -1,12 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
-body
-{
+body{
 	 background:url(seigaiha.png) repeat;
 	 z-index: -80;
 }
-#header
-{
+
+#header{
 	width: 1024px;
 	left:50%;
 	margin-left:-512px;
@@ -17,24 +16,24 @@ body
 	text-align:center;
 	z-index: 40;
 }
-#header a
-{
+
+#header a{
 	font-family:'Voltaire', sans-serif;
 	font-size:60px;
 	margin-top:0px;
 	color:#2d5c78;
 	text-decoration:none;
 }
-#header a:hover
-{
+
+#header a:hover{
 	font-family:'Voltaire', sans-serif;
 	font-size:60px;
 	margin-top:0px;
 	color:#3eace1;
 	text-decoration:none;
 }
-#topnav
-{
+
+#topnav{
 	width: 1024px;
 	left:50%;
 	margin-left:-512px;
@@ -44,40 +43,38 @@ body
 	z-index:50;
 	
 }
-#topnav ul
-{
+
+#topnav ul{
 	margin: 0;
 	padding: 0px;
 	list-style-type: none;
 }
-#topnav li
-{
+
+#topnav li{
 	display: inline;
 	padding-left:30px;
 }
-#topnav ul li a
-{
+
+#topnav ul li a{
 	font-family:'Voltaire', sans-serif;
 	font-size:24px;
 	text-decoration: none;
 	color:#3eace1;
 }
-#topnav ul li a:hover
-{
+
+#topnav ul li a:hover{
 	font-family:'Voltaire', sans-serif;
 	font-size:24px;
 	text-decoration: none;
 	color:#2d5c78;
 }
-#content
-{
+
+#content{
 	line-height: 125%;
 	font-family:'Marvel', sans-serif;
 	font-size:30px;
-	margin-top:0px;
 	color:#2d5c78;
 	text-decoration:none;
-	background-image:url(debut_light.png);
 	opacity:.9;
 	width: 1024px;
 	height:auto;
@@ -89,8 +86,8 @@ body
 	padding:10px;
 	z-index: 20;
 }
-#content a
-{
+
+#content a{
 	line-height: 125%;
 	font-family:'Marvel', sans-serif;
 	font-size:30px;
@@ -98,8 +95,8 @@ body
 	color:#2d5c78;
 	text-decoration:none;
 }
-#content a:hover
-{
+
+#content a:hover{
 	line-height: 125%;
 	font-family:'Marvel', sans-serif;
 	font-size:30px;
@@ -107,15 +104,91 @@ body
 	color:#3eace1;
 	text-decoration:none;
 }
-div.img img
-{
+
+#links{
+	margin-top: -20px;
+}
+
+.git_link{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url('gitlogo.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+
+.git_link:hover{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url('gitlogohover.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+
+.resume_link{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url('resumelogo.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+
+.resume_link:hover{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url('resumelogohover.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+
+.linkedin_link{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url('linkedinlogo.png');
+	background-size: 38px 38px;
+	background-repeat: no-repeat;
+}
+
+.linkedin_link:hover{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url('linkedinlogohover.png');
+	background-size: 38px 38px;
+	background-repeat: no-repeat;
+}
+
+.email_link{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url('emaillogo.png');
+	background-size: 38px 38px;
+	background-repeat: no-repeat;
+}
+
+.email_link:hover{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	background:url('emaillogohover.png');
+	background-size: 38px 38px;
+	background-repeat: no-repeat;
+}
+
+div.img img{
 	width: 250px;
 	height:200px;
 	float: left;
 	padding: 45px;
 }
-#footer
-{
+
+#footer{
 	background-color:#2d5c78;
 	width: 100%;
 	height:45px;
@@ -124,15 +197,15 @@ div.img img
 	bottom:0px;
 	z-index: 55;
 }
-h1
-{
+
+h1{
 	font-family:'Voltaire', sans-serif;
 	font-size:60px;
 	margin-top:0px;
 	color:#2d5c78;
 }
-h2
-{
+
+h2{
 	font-family:'Voltaire', sans-serif;
 	font-size:36px;
 	color:#d2dddf;	
@@ -140,25 +213,24 @@ h2
 	padding: 10px;
 	margin:0px;
 }
-h3
-{
+
+h3{
 	font-family:'Voltaire', sans-serif;
 	font-size:14px;
 	font-weight:100;
 	color:#EEE;	
 	margin:0px;
 }
-h4
-{
+
+h4{
 	font-family:'Marvel', sans-serif;
 	font-size:30px;
 	color:#2d5c78;	
 	font-weight:100;
 	padding: 10px;
-	padding-bottom:35px;
 }
-h5
-{
+
+h5{
 	font-family:'Voltaire', sans-serif;
 	font-size:30px;
 	color:#2d5c78;	
@@ -166,8 +238,8 @@ h5
 	padding: 10px;
 	text-align:left;
 }
-p
-{
+
+p{
 	font-family:'Voltaire', sans-serif;
 	font-size:16px;
 	color:#EEE;	
