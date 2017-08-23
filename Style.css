@@ -10,7 +10,7 @@ body
 	width: 1024px;
 	left:50%;
 	margin-left:-512px;
-	margin-bottom: 80px;
+	margin-bottom: 95px;
 	margin-top: 80px;
 	height:80px;
 	position:relative;
@@ -71,6 +71,12 @@ body
 }
 #content
 {
+	line-height: 125%;
+	font-family:'Marvel', sans-serif;
+	font-size:30px;
+	margin-top:0px;
+	color:#2d5c78;
+	text-decoration:none;
 	background-image:url(debut_light.png);
 	opacity:.9;
 	width: 1024px;
@@ -85,6 +91,7 @@ body
 }
 #content a
 {
+	line-height: 125%;
 	font-family:'Marvel', sans-serif;
 	font-size:30px;
 	margin-top:0px;
@@ -93,6 +100,7 @@ body
 }
 #content a:hover
 {
+	line-height: 125%;
 	font-family:'Marvel', sans-serif;
 	font-size:30px;
 	margin-top:0px;
